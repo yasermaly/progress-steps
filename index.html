@@ -11,10 +11,20 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Project Template</title>
+    <title>Progress Steps</title>
   </head>
   <body>
-    <h1>Project Template</h1>
+    <div class="container">
+      <div class="progress-container">
+        <div class="progress" id="progress"></div>
+        <div class="circle active">1</div>
+        <div class="circle">2</div>
+        <div class="circle">3</div>
+        <div class="circle">4</div>
+        <button class="btn" id="prev" disabled>Prev</button>
+        <button class="btn" id="next">Next</button>
+      </div>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
